@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Burger king</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="images/header image.jpg" alt="Header Image">
+        <h1>Burger king</h1>
+        <nav class="navigation"?>
+            <ul>
+                <li><a href="#">HOME</a> </li>
+                <li><a href="#">STORY</a> </li>
+                <li><a href="#">CONTACT</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+        <article>
+            <h2>Burger king</h2>
+            <img src="images/burger king.jpg" alt="Article Image" height="300" width="350">
+            <p>Burger King is a well-known fast food restaurant chain that was founded in 1954 in Miami, Florida, USA. 
+            It has since grown into a global brand with thousands of locations worldwide. Known for its flame-grilled
+             burgers, Burger King offers a wide range of menu items, including sandwiches, fries, salads, desserts, and beverages.</p>
+        </article>
+
+        <section>
+            <h2>Facts:</h2>
+            <ul>
+                <li>Whopper: The Whopper is Burger King's signature burger, first introduced in 1957. It consists of a flame-grilled
+                     beef patty, sesame seed bun, lettuce, tomato, mayonnaise, ketchup, pickles, and onions.</li>
+                <li>"Have It Your Way": Burger King's iconic slogan, "Have It Your Way," was introduced in 1974. It emphasizes 
+                    the customizable nature of their menu, allowing customers to personalize their orders.</li>
+                <li>Global Presence: Burger King has a strong international presence, with thousands of restaurants in over 100 
+                    countries. The company has expanded into various markets worldwide, including Europe, Asia, the Middle East, 
+                    and Africa.</li>
+            </ul>
+        </section>
+        <section class="form">
+            <h2> Contact to learn more </h2>
+            <form>
+                <div>
+                        <label for="name"> Your Name:</label>
+                        <input type="text" id="name" name="name">
+                        </div> <div>
+                        <label for="email"> Your Email ID:</label>
+                        <input type="email" id="email" name="email"> </div>
+                        <div>
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message"></textarea> </div>
+                        <button type="send">Send</button>
+                        </form>
+                       </section>
+                        <footer>
+                        <p>&copy; 2023 BURGER KING. All rights reserved.</p>
+                        </footer> </body>
+</html>
