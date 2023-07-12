@@ -1,0 +1,126 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #1a1a19d9;
+    background-color: rgb(148, 121, 14);
+    }
+    header {
+    position: relative;
+    }
+    .navigation {
+    background-color: #ea9917;
+    }
+    .navigation ul {
+    list-style-type: none;
+    margin: 0;
+padding: 0;
+text-align: center;
+}
+.navigation ul li {
+display: inline-block;
+margin: 8 30px;
+}
+.navigation ul li a {
+text-decoration: none;
+color: #9f0909;
+padding: 10px;
+}
+.navigation ul li a:hover {
+background-color: #c65f5f;
+}
+Header image{
+    width: 100%;
+}
+header h1 {
+    position: absolute;
+top: 40%;
+left: 70%;
+transform: translate(-40%, -70%);
+color: rgb(234, 209, 19);
+font-size: 65px;
+text-align: center;
+}
+nav {
+background-color: #931313;
+padding: 10px;
+margin-top: 0%;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: left;
+}
+nav li {
+display: inline-block;
+}
+nav a {
+    color: rgb(154, 37, 37);
+text-decoration: none;
+padding: 10px 20px;
+}
+nav a:hover {
+background-color: #555;
+}
+article {
+width: 80%;
+margin: 20px auto;
+}
+article image{
+float: left;
+margin-right: 20px;
+width: 200px;
+}
+.facts {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+width: 90%;
+margin: 20px auto;
+}
+.facts h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    }
+    .facts ul {
+    list-style-type: square;
+    }
+    .form {
+    width: 100%;
+    margin: 30px auto;
+    }
+    .form h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    }
+    .form form{
+    display: grid;
+    gap: 20px;
+    }
+    .form label {
+    display: block;
+}
+.form input,
+.form textarea {
+width: 100%;
+padding: 9px;
+font-size: 30px;
+}
+.form button{
+padding: 10px 25px;
+background-color: #dba40e;
+color: rgba(6, 1, 10, 0.864);
+border: none;
+cursor: pointer;
+}
+footer {
+text-align: left;
+padding: 20px;
+background-color: #cf1698;
+}
+@media screen and (max-width: 768px) {
+side image{
+float: none;
+margin-right: 0;
+margin-bottom: 10px;
+}
+.facts ul {
+list-style-type: none;}
